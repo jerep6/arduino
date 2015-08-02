@@ -1,0 +1,14 @@
+{
+  "name": "arduino-joke",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jerep6",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "1.7.4"
+  }
+}
