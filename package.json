@@ -9,6 +9,7 @@
   "author": "jerep6",
   "license": "ISC",
   "dependencies": {
+    "q": "1.4.1",
     "serialport": "1.7.4"
   }
 }

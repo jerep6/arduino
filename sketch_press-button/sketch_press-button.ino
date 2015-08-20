@@ -4,7 +4,7 @@
 // constants used here to set pin numbers:
 //const int buttonPin = 7;     // the number of the pushbutton pin
 const int ledPin =  13;      // the number of the LED pin
-const int buttonsPins[] = {7, 9};
+const int buttonsPins[] = {9, 7};
 const int numberOfPins = 2;
 unsigned long timeBetweenTwoPressSignal = 1000;
 
@@ -39,7 +39,7 @@ void loop() {
       unsigned long time = millis();
       
       if(time - buttonsPressedTime[i] >= timeBetweenTwoPressSignal) {
-        Serial.println("Button pressed");
+        Serial.println("btn_"+String(i));
 
         // Forbidden to execute again this action until button will be released
         buttonsRelease[i] = false;
